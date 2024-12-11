@@ -8,7 +8,7 @@ let completedTasks = 0;
 
 // Function to add a task
 addTaskButton.addEventListener('click', function() {
-    const taskValue = taskInput.value.trim();
+    const taskValue = taskInput.value;
 
     if (taskValue === '') {
         alert('Please enter a task.');
